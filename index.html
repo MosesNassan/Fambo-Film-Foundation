@@ -1,11 +1,112 @@
 <!DOCTYPE htmL>
-<html>
+<html lang="en">
     <head>
-        <title>Github learning</title>
+        <meta charset="UTF-8">
+        <title>FAMBO FILM FOUNDATION</title>
         <link rel="stylesheet" href="./css/style.css">
-    </head>
-    <body>
-        <h1>My first project</h1>
-        <p>This is Fambo himself</p>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body{
+                font-family: roboto;
+            }
+            .wrap{
+                background-color:gray;
+                background-position:center ;
+                background-size:cover ;
+                min-height: 100vh;
+                overflow: hidden;
+            }
+            header{
+                position:fixed;
+                top:0;
+                left:0;
+                width: 100px;
+                padding: 25px;
+            }
+            header.nav{
+                max-width: 960px;
+                margin: 0 auto;
+                padding: 10px 0;
+                margin-right: 0%;
+            } 
+           header nav ul{
+                text-align:right;
+            }
+            .header li{
+                display: inline-block;
+            }
+            .header>nav>ul>li>a{
+                padding: 18px;
+                margin-right: 0;
+                text-transform: uppercase;
+                display: inline-block;
+                text-align: right;
+            }
+            header.logo{
+                font-size: 28px;
+                font-weight: 700;
+                color: #fff;
+            }
+            .content{
+                max-width: 55%;
+                padding: 200px 80px 0;
+                color: black;
+            }
+            .content1{
+                font-size: 48px;
+
+            }
+            .content p{
+                font-size: 20px;
+                padding: 25px 0;
+                font-weight: 300;
+            }
+            .content .btwn-group{
+                margin-top: 45px;
+            }
+            .content a{
+                display: inline-block;
+                padding: 15px 45px;
+                text-decoration: none;
+                color:blue;
+                border-radius: 50px;
+            }
+            .content a.color1{
+                background-color: yellow;
+            }
+
+        </style>
+        </head>
+        <body>
+            <div class="wrap">
+                <header>
+                    <div class="logo">YOU&ME</div>  <nav>
+                        <ul>
+                            <li><a href="#home">HOME</a></li>
+                            <li><a href="#about">ABOUT</a></li>
+                            <li><a href="#testimonials">TESTIMONIALS</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
+                        </ul>
+                    </nav>
+
+                </header>
+        
+        <div class="content">
+        <h1>FAMBO FILM FOUNDATION</h1>
+        <p>With the covid-19 pandemic, alot of people in Kibra constituency have lost jobs, contracts, and income. The Fambo Film Foundation, is a project that I am working on  to voice the untold and the unheard stories of the residents. There is over 500,000 people most of them are low income, daily wage  earners.Since the directives to flatten the curve of the spread of the coronavirus disease, it has made the situation for the dwellers much harder. These families include  single parented houdeholds, orphaned or child-headed  households and households with people living with disabilities within the informal settlement.</p>
+        <div class="btwn-group">
+            <a href="#">More Info</a>
+            <a href="#">Learn more</a>
+
+
+        </div>
+
+            
+
+        </div>
     </body>
 </html>
