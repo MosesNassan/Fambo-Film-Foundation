@@ -2,111 +2,106 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        
         <title>FAMBO FILM FOUNDATION</title>
         <link rel="stylesheet" href="./css/style.css">
         <style>
-            *{
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-            }
-            body{
-                font-family: roboto;
-            }
-            .wrap{
-                background-color:gray;
-                background-position:center ;
-                background-size:cover ;
-                min-height: 100vh;
-                overflow: hidden;
-            }
-            header{
-                position:fixed;
-                top:0;
-                left:0;
-                width: 100px;
-                padding: 25px;
-            }
-            header.nav{
-                max-width: 960px;
-                margin: 0 auto;
-                padding: 10px 0;
-                margin-right: 0%;
-            } 
-           header nav ul{
-                text-align:right;
-            }
-            .header li{
-                display: inline-block;
-            }
-            .header>nav>ul>li>a{
-                padding: 18px;
-                margin-right: 0;
-                text-transform: uppercase;
-                display: inline-block;
-                text-align: right;
-            }
-            header.logo{
-                font-size: 28px;
-                font-weight: 700;
-                color: #fff;
-            }
-            .content{
-                max-width: 55%;
-                padding: 200px 80px 0;
-                color: black;
-            }
-            .content1{
-                font-size: 48px;
+        body{
+            font-family: roboto;
+            color: white;
+            background: linear-gradient(
+                rgba(0,0,0,0.65),
+                rgba(0,0,0,0.65),
+                rgba(0,0,0,0.38),
+                rgba(0,0,0,0)
+            ), url("https://media.gettyimages.com/photos/african-little-girls-standing-in-trash-and-looking-at-kibera-slum-picture-id1200802368?s=2048x2048") no-repeat;
+            background-size:cover;
+        }
+        .wrap{
+            width: 960px;
+            float: right;
+            border: 1px solid none;
+        }
+        .wrap ul li{
+            width: 120px;
+            float: left;
+            margin: 10px auto;
+            text-align: center;
 
-            }
-            .content p{
-                font-size: 20px;
-                padding: 25px 0;
-                font-weight: 300;
-            }
-            .content .btwn-group{
-                margin-top: 45px;
-            }
-            .content a{
-                display: inline-block;
-                padding: 15px 45px;
-                text-decoration: none;
-                color:blue;
-                border-radius: 50px;
-            }
-            .content a.color1{
-                background-color: yellow;
-            }
+        }
+        .wrap ul li a{
+            text-decoration: none;
+            color: darkgray;
+        }
+        .wrap ul li:hover{
+            background: green;
+        }
+        .wrap ul li a:hover{
+            color: white;
+        }
+        .content{
+            width: 300px;
+            height: 539px;
+            background-color:black ;
+            opacity: 0.9;
+            padding: 55px;
+        }
+        .content h1{
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 100px;
+        }
+        .content h4{
+            text-align: justify;
+            color: darkgray;
+            font-weight: normal;
+        }
+        .content h3{
+            text-align: center;
+            text-transform: uppercase;
+            margin: 40px auto;
+        }
+        .opt form, input[type="button"]{
+            background-color:black ;
+            color: white;
+            padding: 0px;
+            margin: -14px auto;
+            padding-left:50px ;
+            text-align: center;
+        }
+        form, input[type="button"]:hover{
+            background-color:green ;
+        }
+
 
         </style>
         </head>
         <body>
             <div class="wrap">
-                <header>
-                    <div class="logo">YOU&ME</div>  <nav>
-                        <ul>
+                      
+                        <ul type=none;>
                             <li><a href="#home">HOME</a></li>
                             <li><a href="#about">ABOUT</a></li>
                             <li><a href="#testimonials">TESTIMONIALS</a></li>
                             <li><a href="#contact">CONTACT</a></li>
                         </ul>
-                    </nav>
+            </div>
+                    
 
-                </header>
         
         <div class="content">
-        <h1>FAMBO FILM FOUNDATION</h1>
-        <p>With the covid-19 pandemic, alot of people in Kibra constituency have lost jobs, contracts, and income. The Fambo Film Foundation, is a project that I am working on  to voice the untold and the unheard stories of the residents. There is over 500,000 people most of them are low income, daily wage  earners.Since the directives to flatten the curve of the spread of the coronavirus disease, it has made the situation for the dwellers much harder. These families include  single parented houdeholds, orphaned or child-headed  households and households with people living with disabilities within the informal settlement.</p>
-        <div class="btwn-group">
-            <a href="#">More Info</a>
-            <a href="#">Learn more</a>
+        <h1>FAMBO FILM</h1>
+        <h4>With the covid-19 pandemic, alot of people in Kibra constituency have lost jobs, contracts, and income. The Fambo Film Foundation, is a project that I am working on  to voice the untold and the unheard stories of the residents. There is over 500,000 people most of them are low income, daily wage earners. Since the directives to flatten the curve of the spread of the coronavirus disease, it has made the situation for the dwellers much harder. These families include single parented households, orphaned or child-headed households and households with people living with disabilities within the informal settlement.</h4>
+        
+        <h3>The untold stories</h3>
+        <div class="opt">
+            <form action="" method="POST">
+                <input type="button" value="More Info">
+                <input type="button" value="Learn More">
+            </form>
 
 
         </div>
-
-            
-
         </div>
     </body>
 </html>
